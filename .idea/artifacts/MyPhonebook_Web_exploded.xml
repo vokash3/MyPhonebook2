@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyPhonebook:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyPhonebook_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyPhonebook" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/gwt/gwt-servlet/2.8.2/gwt-servlet-2.8.2.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="MyPhonebook/gwt/GWT" />
+      <element id="javaee-facet-resources" facet="MyPhonebook/web/Web" />
+    </root>
+  </artifact>
+</component>
